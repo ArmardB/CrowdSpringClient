@@ -1,0 +1,581 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		00F28A06DA3994FE52E5161B /* Pods_CrowdSpring.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CAD0C14F30AC96517EAD7349 /* Pods_CrowdSpring.framework */; };
+		880D150B1DA5C4B300FD4393 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 880D150A1DA5C4B300FD4393 /* AppDelegate.swift */; };
+		880D150D1DA5C4B300FD4393 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 880D150C1DA5C4B300FD4393 /* ViewController.swift */; };
+		880D15101DA5C4B300FD4393 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 880D150E1DA5C4B300FD4393 /* Main.storyboard */; };
+		880D15131DA5C4B300FD4393 /* CrowdSpring.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 880D15111DA5C4B300FD4393 /* CrowdSpring.xcdatamodeld */; };
+		880D15151DA5C4B300FD4393 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 880D15141DA5C4B300FD4393 /* Assets.xcassets */; };
+		880D15181DA5C4B300FD4393 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 880D15161DA5C4B300FD4393 /* LaunchScreen.storyboard */; };
+		880D15231DA5C4B400FD4393 /* CrowdSpringTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 880D15221DA5C4B400FD4393 /* CrowdSpringTests.swift */; };
+		880D152E1DA5DF0D00FD4393 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 880D152D1DA5DF0D00FD4393 /* SearchViewController.swift */; };
+		880D15301DA5ED5500FD4393 /* UserObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 880D152F1DA5ED5400FD4393 /* UserObject.swift */; };
+		EB84214BFFE6650B5250082E /* Pods_CrowdSpringTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D850A274E84D700FDCFD3A7C /* Pods_CrowdSpringTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		880D151F1DA5C4B400FD4393 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 880D14FF1DA5C4B300FD4393 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 880D15061DA5C4B300FD4393;
+			remoteInfo = CrowdSpring;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4A2F5C86885855E2AA0B878B /* Pods-CrowdSpringTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CrowdSpringTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CrowdSpringTests/Pods-CrowdSpringTests.debug.xcconfig"; sourceTree = "<group>"; };
+		780623B35296C4C803BC7C3E /* Pods-CrowdSpringTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CrowdSpringTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-CrowdSpringTests/Pods-CrowdSpringTests.release.xcconfig"; sourceTree = "<group>"; };
+		7D0B890016BC724590EA808E /* Pods-CrowdSpring.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CrowdSpring.release.xcconfig"; path = "Pods/Target Support Files/Pods-CrowdSpring/Pods-CrowdSpring.release.xcconfig"; sourceTree = "<group>"; };
+		880D15071DA5C4B300FD4393 /* CrowdSpring.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CrowdSpring.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		880D150A1DA5C4B300FD4393 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		880D150C1DA5C4B300FD4393 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		880D150F1DA5C4B300FD4393 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		880D15121DA5C4B300FD4393 /* CrowdSpring.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CrowdSpring.xcdatamodel; sourceTree = "<group>"; };
+		880D15141DA5C4B300FD4393 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		880D15171DA5C4B300FD4393 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		880D15191DA5C4B300FD4393 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		880D151E1DA5C4B400FD4393 /* CrowdSpringTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CrowdSpringTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		880D15221DA5C4B400FD4393 /* CrowdSpringTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CrowdSpringTests.swift; sourceTree = "<group>"; };
+		880D15241DA5C4B400FD4393 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		880D152D1DA5DF0D00FD4393 /* SearchViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		880D152F1DA5ED5400FD4393 /* UserObject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserObject.swift; sourceTree = "<group>"; };
+		CAD0C14F30AC96517EAD7349 /* Pods_CrowdSpring.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CrowdSpring.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D850A274E84D700FDCFD3A7C /* Pods_CrowdSpringTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CrowdSpringTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D92885A92D7D906AF3AB2D7E /* Pods-CrowdSpring.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CrowdSpring.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CrowdSpring/Pods-CrowdSpring.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		880D15041DA5C4B300FD4393 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00F28A06DA3994FE52E5161B /* Pods_CrowdSpring.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		880D151B1DA5C4B400FD4393 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB84214BFFE6650B5250082E /* Pods_CrowdSpringTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		15255DBDBDA9799EBEFE2F31 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D92885A92D7D906AF3AB2D7E /* Pods-CrowdSpring.debug.xcconfig */,
+				7D0B890016BC724590EA808E /* Pods-CrowdSpring.release.xcconfig */,
+				4A2F5C86885855E2AA0B878B /* Pods-CrowdSpringTests.debug.xcconfig */,
+				780623B35296C4C803BC7C3E /* Pods-CrowdSpringTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		709A68CCFC620A58C6A17D13 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CAD0C14F30AC96517EAD7349 /* Pods_CrowdSpring.framework */,
+				D850A274E84D700FDCFD3A7C /* Pods_CrowdSpringTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		880D14FE1DA5C4B300FD4393 = {
+			isa = PBXGroup;
+			children = (
+				880D15091DA5C4B300FD4393 /* CrowdSpring */,
+				880D15211DA5C4B400FD4393 /* CrowdSpringTests */,
+				880D15081DA5C4B300FD4393 /* Products */,
+				15255DBDBDA9799EBEFE2F31 /* Pods */,
+				709A68CCFC620A58C6A17D13 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		880D15081DA5C4B300FD4393 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				880D15071DA5C4B300FD4393 /* CrowdSpring.app */,
+				880D151E1DA5C4B400FD4393 /* CrowdSpringTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		880D15091DA5C4B300FD4393 /* CrowdSpring */ = {
+			isa = PBXGroup;
+			children = (
+				880D150A1DA5C4B300FD4393 /* AppDelegate.swift */,
+				880D150C1DA5C4B300FD4393 /* ViewController.swift */,
+				880D152D1DA5DF0D00FD4393 /* SearchViewController.swift */,
+				880D152F1DA5ED5400FD4393 /* UserObject.swift */,
+				880D150E1DA5C4B300FD4393 /* Main.storyboard */,
+				880D15141DA5C4B300FD4393 /* Assets.xcassets */,
+				880D15161DA5C4B300FD4393 /* LaunchScreen.storyboard */,
+				880D15191DA5C4B300FD4393 /* Info.plist */,
+				880D15111DA5C4B300FD4393 /* CrowdSpring.xcdatamodeld */,
+			);
+			path = CrowdSpring;
+			sourceTree = "<group>";
+		};
+		880D15211DA5C4B400FD4393 /* CrowdSpringTests */ = {
+			isa = PBXGroup;
+			children = (
+				880D15221DA5C4B400FD4393 /* CrowdSpringTests.swift */,
+				880D15241DA5C4B400FD4393 /* Info.plist */,
+			);
+			path = CrowdSpringTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		880D15061DA5C4B300FD4393 /* CrowdSpring */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 880D15271DA5C4B400FD4393 /* Build configuration list for PBXNativeTarget "CrowdSpring" */;
+			buildPhases = (
+				D73E68B029820B668E4D4521 /* [CP] Check Pods Manifest.lock */,
+				880D15031DA5C4B300FD4393 /* Sources */,
+				880D15041DA5C4B300FD4393 /* Frameworks */,
+				880D15051DA5C4B300FD4393 /* Resources */,
+				4411FF5C753397965EA9A181 /* [CP] Embed Pods Frameworks */,
+				002306345A9EB36655243612 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CrowdSpring;
+			productName = CrowdSpring;
+			productReference = 880D15071DA5C4B300FD4393 /* CrowdSpring.app */;
+			productType = "com.apple.product-type.application";
+		};
+		880D151D1DA5C4B400FD4393 /* CrowdSpringTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 880D152A1DA5C4B400FD4393 /* Build configuration list for PBXNativeTarget "CrowdSpringTests" */;
+			buildPhases = (
+				A06AD5B0167ED4634451E33E /* [CP] Check Pods Manifest.lock */,
+				880D151A1DA5C4B400FD4393 /* Sources */,
+				880D151B1DA5C4B400FD4393 /* Frameworks */,
+				880D151C1DA5C4B400FD4393 /* Resources */,
+				A3A1AED00D8B35C927DC51BB /* [CP] Embed Pods Frameworks */,
+				0C84BF239D6788830802F492 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				880D15201DA5C4B400FD4393 /* PBXTargetDependency */,
+			);
+			name = CrowdSpringTests;
+			productName = CrowdSpringTests;
+			productReference = 880D151E1DA5C4B400FD4393 /* CrowdSpringTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		880D14FF1DA5C4B300FD4393 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "Armard Bellamy";
+				TargetAttributes = {
+					880D15061DA5C4B300FD4393 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
+					880D151D1DA5C4B400FD4393 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 880D15061DA5C4B300FD4393;
+					};
+				};
+			};
+			buildConfigurationList = 880D15021DA5C4B300FD4393 /* Build configuration list for PBXProject "CrowdSpring" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 880D14FE1DA5C4B300FD4393;
+			productRefGroup = 880D15081DA5C4B300FD4393 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				880D15061DA5C4B300FD4393 /* CrowdSpring */,
+				880D151D1DA5C4B400FD4393 /* CrowdSpringTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		880D15051DA5C4B300FD4393 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				880D15181DA5C4B300FD4393 /* LaunchScreen.storyboard in Resources */,
+				880D15151DA5C4B300FD4393 /* Assets.xcassets in Resources */,
+				880D15101DA5C4B300FD4393 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		880D151C1DA5C4B400FD4393 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		002306345A9EB36655243612 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CrowdSpring/Pods-CrowdSpring-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		0C84BF239D6788830802F492 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CrowdSpringTests/Pods-CrowdSpringTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4411FF5C753397965EA9A181 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CrowdSpring/Pods-CrowdSpring-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A06AD5B0167ED4634451E33E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		A3A1AED00D8B35C927DC51BB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CrowdSpringTests/Pods-CrowdSpringTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D73E68B029820B668E4D4521 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		880D15031DA5C4B300FD4393 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				880D150D1DA5C4B300FD4393 /* ViewController.swift in Sources */,
+				880D152E1DA5DF0D00FD4393 /* SearchViewController.swift in Sources */,
+				880D150B1DA5C4B300FD4393 /* AppDelegate.swift in Sources */,
+				880D15301DA5ED5500FD4393 /* UserObject.swift in Sources */,
+				880D15131DA5C4B300FD4393 /* CrowdSpring.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		880D151A1DA5C4B400FD4393 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				880D15231DA5C4B400FD4393 /* CrowdSpringTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		880D15201DA5C4B400FD4393 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 880D15061DA5C4B300FD4393 /* CrowdSpring */;
+			targetProxy = 880D151F1DA5C4B400FD4393 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		880D150E1DA5C4B300FD4393 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				880D150F1DA5C4B300FD4393 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		880D15161DA5C4B300FD4393 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				880D15171DA5C4B300FD4393 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		880D15251DA5C4B400FD4393 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		880D15261DA5C4B400FD4393 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		880D15281DA5C4B400FD4393 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D92885A92D7D906AF3AB2D7E /* Pods-CrowdSpring.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CrowdSpring/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.armardbellamy.CrowdSpring;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		880D15291DA5C4B400FD4393 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7D0B890016BC724590EA808E /* Pods-CrowdSpring.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CrowdSpring/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.armardbellamy.CrowdSpring;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		880D152B1DA5C4B400FD4393 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4A2F5C86885855E2AA0B878B /* Pods-CrowdSpringTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = CrowdSpringTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.armardbellamy.CrowdSpringTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CrowdSpring.app/CrowdSpring";
+			};
+			name = Debug;
+		};
+		880D152C1DA5C4B400FD4393 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 780623B35296C4C803BC7C3E /* Pods-CrowdSpringTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = CrowdSpringTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.armardbellamy.CrowdSpringTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CrowdSpring.app/CrowdSpring";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		880D15021DA5C4B300FD4393 /* Build configuration list for PBXProject "CrowdSpring" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				880D15251DA5C4B400FD4393 /* Debug */,
+				880D15261DA5C4B400FD4393 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		880D15271DA5C4B400FD4393 /* Build configuration list for PBXNativeTarget "CrowdSpring" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				880D15281DA5C4B400FD4393 /* Debug */,
+				880D15291DA5C4B400FD4393 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		880D152A1DA5C4B400FD4393 /* Build configuration list for PBXNativeTarget "CrowdSpringTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				880D152B1DA5C4B400FD4393 /* Debug */,
+				880D152C1DA5C4B400FD4393 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		880D15111DA5C4B300FD4393 /* CrowdSpring.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				880D15121DA5C4B300FD4393 /* CrowdSpring.xcdatamodel */,
+			);
+			currentVersion = 880D15121DA5C4B300FD4393 /* CrowdSpring.xcdatamodel */;
+			path = CrowdSpring.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 880D14FF1DA5C4B300FD4393 /* Project object */;
+}
